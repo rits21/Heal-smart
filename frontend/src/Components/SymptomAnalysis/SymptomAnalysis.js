@@ -65,7 +65,7 @@ function SymptomAnalysis({ updateActive }) {
       symptoms: selectedSymptoms,
     };
 
-    const url = "https://diagnoze-api.onrender.com/predict";
+    const url = "https://heal-smart-server.onrender.com/predict";
 
     const options = {
       method: "POST",
