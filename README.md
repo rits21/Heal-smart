@@ -1,70 +1,66 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# HealSmart: A Medical Assistant Web Application
+ 
+Welcome to the HealSmart, a medical assistant web application repository! This project aims to develop a comprehensive healthcare recommendation system that assists users in navigating their symptoms, accessing appropriate specialists, and ultimately improving their overall healthcare experience. Leveraging advanced technologies and user-centric design principles, my goal is to empower individuals in making informed healthcare decisions and enhancing their well-being. This is developed as a solution for 2024 Girl Hackathon Ideathon Round for the problem statement "Medical Assistant". The detailed problem statement and proposed solution are mentioned furthur in the document.
+ 
+## Web App link
+ 
+Click [here]() to visit the web app.
+ 
+## Problem Statement
+ 
+I have to develop a healthcare recommendation system that analyzes user symptoms leveraging symptom data (using mock data), healthcare provider databases, and user ratings,  recommends doctors with matching specialties and aligned schedules.
+ 
+## Features
+ 
+- **Symptom Analysis:** It uses a Python-based ML model, seamlessly integrated via a Flask application, to predict diseases from user symptoms. This not only directs users to the most suitable specialist doctors but also provides AI-driven preliminary recommendations.
+- **Mind-Bot:** It provides essential mental support through empathetic conversations, utilizing GenAI (Gemini API) to address prevalent issues such as loneliness and mental health concerns, with sensitivity and understanding. 
+- **Consult Doctor:** It streamlines the process of finding and booking appointments with specialists, presenting user-friendly interfaces and utilizing Firebase to simulate a dummy healthcare provider database.
+ 
+## Architecture
+ 
+![Architecture](screenshots/architecture.png)
+ 
+## Demo
+ 
+### Screenshots
+ 
+- **Home Page**
+  ![Home Page](screenshots/home_page.png)
+ 
+- **Symptom Analysis**
+  ![Symptom Analysis](screenshots/symptom_analysis.png)
+ 
+- **Analysis Result**
+  ![Analysis Result](screenshots/analysis_result.png)
+ 
+- **AI Consultation**
+  ![AI Consultation](screenshots/ai_consultation.png)
+ 
+- **Mind-Bot**
+  ![Mind-Bot](screenshots/mind_bot.png)
+ 
+- **Consult Doctor**
+  ![Consult Doctor](screenshots/consult_doctor.png)
+ 
+- **Doctor Appointment**
+  ![Doctor Appointment](screenshots/doctor_appointment.png)
+ 
+### Working
+ 
+- **Symptom Analysis:** Users input their symptoms into the web application. The ML model predicts possible diseases based on the symptoms provided, recommending appropriate specialist categories for further consultation. Users also have the option to get some AI-driven preliminary measures.
+- **Mind-Bot:** Users engage with the chatbot feature to receive mental support and guidance. The chatbot offers empathetic responses and provides resources to address mental health concerns.
+- **Consult Doctor:** Users browse through a list of doctors with various specializations, viewing their basic details and ratings. They can then select a doctor and book appointments directly through the web application.
+ 
+## Technologies Used
+ 
+- **Frontend:** HTML, CSS, Tailwind CSS, JavaScript, React
+- **Backend:** Python (Flask)
+- **Machine Learning:** Logistic Regression
+- **APIs:** Gemini API
+- **Database:** Firebase Firestore(for simulating dummy healthcare provider database)
+ 
+## Purpose and Use Cases
+ 
+My aim is to provide a comprehensive healthcare recommendation system that leverages symptom data, healthcare provider databases, and user ratings. This solution is designed to assist users in analyzing their medical conditions, accessing appropriate specialists, and ultimately improving their overall healthcare experience. Not only that, it also
+destigmatizes mental health issues and encourages users to seek help when needed by conversing with AI powered ‘Mind-Bot’ of the application. My target audience includes individuals seeking efficient and personalized healthcare guidance in navigating their symptoms and accessing quality medical care. By combining advanced technology with user-centric design, I aspire to empower users in making informed healthcare decisions and enhancing their well-being.
+ 
