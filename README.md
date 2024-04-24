@@ -4,7 +4,7 @@ Welcome to the HealSmart, a medical assistant web application repository! This p
  
 ## Web App link
  
-Click [here]() to visit the web app.
+Click [here](https://heal-smart.vercel.app/) to visit the web app.
  
 ## Problem Statement
  
@@ -38,6 +38,9 @@ I have to develop a healthcare recommendation system that analyzes user symptoms
  
 - **Mind-Bot**
   ![Mind-Bot](screenshots/mind_bot.png)
+
+- **Mind-Bot Respone**
+  ![Mind-Bot Response](screenshots/mind_bot_response.png)
  
 - **Consult Doctor**
   ![Consult Doctor](screenshots/consult_doctor.png)
